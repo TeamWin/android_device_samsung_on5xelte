@@ -86,6 +86,3 @@ TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 #TWRP_EVENT_LOGGING := true
 
-# SELinux Policies
-BOARD_SEPOLICY_DIRS := device/samsung/greatlte/sepolicy
-
