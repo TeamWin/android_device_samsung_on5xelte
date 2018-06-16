@@ -6,4 +6,12 @@ ro.lcd_min_brightness=0
 ro.lcd_brightness=162
 ro.sf.lcd_density=320
 ro.hardware.keystore=universal7570
-persist.sys.usb.config=adb
+persist.sys.usb.config=mtp,adb
+# Encryption
+# ro.sec.fle.encryption=true
+# security.mdpp=None
+security.mdpp.mass=skmm
+# security.mdpp.result=None
+# ro.security.mdpp.ver=2.0
+# ro.security.mdpp.release=8
+ro.hardware.keystore=default
