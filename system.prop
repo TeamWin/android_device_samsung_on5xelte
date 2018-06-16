@@ -1,4 +1,4 @@
-ro.hardware=samsungexynos7570
+ro.hardware=samsungexynos7570 
 ro.chipname=exynos7570
 ro.arch=exynos7570
 ro.boot.bootdevice=13540000.dwmmc0
@@ -7,6 +7,7 @@ ro.lcd_brightness=162
 ro.sf.lcd_density=320
 ro.hardware.keystore=universal7570
 persist.sys.usb.config=mtp,adb
+<<<<<<< HEAD
 # Encryption
 # ro.sec.fle.encryption=true
 # security.mdpp=None
@@ -15,3 +16,5 @@ security.mdpp.mass=skmm
 # ro.security.mdpp.ver=2.0
 # ro.security.mdpp.release=8
 ro.hardware.keystore=default
+=======
+>>>>>>> 9c74360c722e354c28c421e6e20147e4b8cfb5f5
