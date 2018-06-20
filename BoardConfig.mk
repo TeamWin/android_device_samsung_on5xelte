@@ -30,7 +30,6 @@ BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048
 # 000RU = recovery kernel, 000KU = system kernel
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --board SRPPG18A000RU
-BOARD_CUSTOM_BOOTIMG_MK :=  device/samsung/on5xelte/bootimg.mk
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432
