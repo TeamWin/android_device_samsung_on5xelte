@@ -1,8 +1,10 @@
 ## TWRP device tree for Galaxy J5 Prime
 
-G570F is tested ,   other models not tested but it should work fine , they all share same cpu and board
+Warning !
 
-build using minimal  twrp 6.0
+This version is not tested Yet 
+
+build using minimal  twrp 7.1
 
 
 
